@@ -16,7 +16,7 @@ end
   
   def import
     self.files.each do |file|
-      
+      file.split(" - ")
   end
   
   
