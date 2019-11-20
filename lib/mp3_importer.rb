@@ -17,6 +17,7 @@ end
   def import
     self.files.each do |file|
       Song.new_by_filename(filename)
+    end
   end
   
   
